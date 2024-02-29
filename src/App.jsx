@@ -24,6 +24,7 @@ function App() {
 
     }
     setPassword(pass)
+
   }, [length, numberAllow, charAllow, password, setPassword])
   useEffect(() => {
 
